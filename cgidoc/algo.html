@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+    Design by Free CSS Templates
+    http://www.freecsstemplates.org
+    Released for free under a Creative Commons Attribution 2.5 License
+    
+    Name       : Premium Series
+    Description: A three-column, fixed-width blog design.
+    Version    : 1.0
+    Released   : 20090303
+    
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>PredLactamase</title>
+    <meta name="keywords" content="" />
+    <meta name="Premium Series" content="" />
+    <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+  </head>
+  <body>
+    <!-- start header -->
+    <div id="header">
+      <div id="logo">
+	<h1><a href="#"><span>Pred</span>Lactamase</a></h1>
+	<p>A webserver to predict beta-lactamase class</p>
+      </div>
+      <div id="menu">
+	<ul id="main">
+	  <li class="current_page_item"><a href="index.html">Homepage</a></li>
+	  <li><a href="submission.html">Submission</a></li>
+	  <li><a href="help.html">Help</a></li>
+	  <li><a href="download.html">Downloads</a></li>
+	  <li><a href="algo.html">Algorithm</a></li>
+	  <li><a href="team.html">Developers</a></li>
+	  <li><a href="contact.html">Contact Us</a></li>
+	</ul>
+      </div>
+    </div>
+    <!-- end header -->
+    <div id="wrapper">
+      <!-- start page -->
+      <div id="page">
+	<!-- start content -->
+	<div id="content">
+	  <div class="post">
+	    <h1 class="title"><a>Algorithm</a></h1>
+	    <div class="entry">
+	      <p>PredLactamase is a pseudo amino acid composition and support vector machine based two level predictor which predict Betalactamase and its classes. At first level it filter out Betalactamase from non-Betalactamase on the basis of SVM score and threshold value. If the SVM score are greater than threshold, predictor predict the query sequence as betalactamase and moves second level where it clasify its classes, else the programme will stop automatically. At second level the predictor clasify one of the four classes of the betalactamase like class A, class B, class C and class D. For each class SVM model gives a score. Class having maximum score is predicted as the most probable class. The figure 1 shows flow diagram of PredLactamase.</p>
+	    </div>
+	    <div>
+	      <table align='center' width='100%'>
+		<tr border='2'><td><a target="_blank"><img align="center" border="1" src="images/figure1.jpg" width="700" height="650"></td></a></tr></table>
+		<br><b>Figure 1.</b> Flow diagram of PredLactamase.<br><br>
+	    </div>
+	  </div>
+	</div>
+	<!-- end content -->
+	<div style="clear: both;">&nbsp;</div>
+      </div>
+      <!-- end page -->
+    </div>
+	    <div id="footer">
+	      <li><a href="../../webservers.html">Other Servers & Databases of our Group</a></li>
+	      <li><a href="http://du.ac.in">University of Delhi</a></li>
+	      <li><a href="http://south.du.ac.in">University of Delhi South Campus</a></li>
+    </div>
+  </body>
+</html>
